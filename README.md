@@ -13,8 +13,7 @@ Práctica de DOM y BOM.
 ## Como clonar el respositorio 🖨
 
 ```bash
-git clone https://github.com/teoMunoz99/tp3-javascript
-```
+git clone https://github.com/teoMunoz99/TP5-JS-EJE1-TadeoMu-oz-c39i
 ## Autor 👦
 
 - Tadeo Muñoz
