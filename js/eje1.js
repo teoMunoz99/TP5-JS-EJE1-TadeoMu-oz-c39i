@@ -22,6 +22,11 @@ function adivinar(e){
     console.log('el numero ingresado es: ' + numeroIngresado.value);
     if(comparar === numeroMagico){
         alert('Ganaste!');
+        if(confirm('Desea jugar de nuevo?')){
+            generarNumero();
+            numeroIngresado.value = '';
+        }
+        
     }else if(comparar < numeroMagico){
         alert('El numero ingresado es menor al número mágico');
         numeroIngresado.value = '';
